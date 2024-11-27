@@ -1,0 +1,52 @@
+section{
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    font-family: sans-serif;
+}
+.main{
+    display: flex;
+    align-items: center
+}
+.main span{
+    font-size: 45px;
+}
+.main img{
+    margin: 10px;
+    cursor: pointer;
+}
+.last{
+    display: flex;
+    align-items:center;
+}
+.last span{
+    padding: 9px;
+}
+.last img{
+    height: 50px;
+}
+.box{
+    border-radius: 10px;
+    background-color: #00b6d1;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content{
+    font-size: 22px;
+    width: 55vw;
+    text-align: center;
+}
+.last .text{
+    font-size: 26px;
+}
+.last .version{
+    font-size: 15px;
+}
+.last div{
+    display: flex;
+    align-items: flex-end;
+}
